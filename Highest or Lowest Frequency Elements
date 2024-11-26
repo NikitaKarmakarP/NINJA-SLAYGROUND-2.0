@@ -1,0 +1,52 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
+    public static int[] getFrequencies(int[] v) {
+        // Create a map to store the frequency of each element
+        HashMap<Integer, Integer> frequencyMap = new HashMap<>();
+        
+        // Populate the frequency map
+        for (int num : v) {
+            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
+        }
+        
+        // Initialize variables for highest and lowest frequency elements
+        int maxFreqElement = Integer.MAX_VALUE;
+        int minFreqElement = Integer.MAX_VALUE;
+        int maxFreq = Integer.MIN_VALUE;
+        int minFreq = Integer.MAX_VALUE;
+        
+        // Iterate over the map to find the elements with highest and lowest frequencies
+        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+            int num = entry.getKey();
+            int freq = entry.getValue();
+            
+            // Check for maximum frequency element
+            if (freq > maxFreq || (freq == maxFreq && num < maxFreqElement)) {
+                maxFreq = freq;
+                maxFreqElement = num;
+            }
+            
+            // Check for minimum frequency element
+            if (freq < minFreq || (freq == minFreq && num < minFreqElement)) {
+                minFreq = freq;
+                minFreqElement = num;
+            }
+        }
+        
+        // Return the result in an array
+        return new int[] {maxFreqElement, minFreqElement};
+    }
+
+    public static void main(String[] args) {
+        // Sample Test Cases
+        int[] v1 = {1, 2, 3, 1, 1, 4};
+        int[] result1 = getFrequencies(v1);
+        System.out.println(result1[0] + " " + result1[1]);  // Output: 1 2
+
+        int[] v2 = {10, 10, 10, 3, 3, 3};
+        int[] result2 = getFrequencies(v2);
+        System.out.println(result2[0] + " " + result2[1]);  // Output: 3 3
+    }
+}
