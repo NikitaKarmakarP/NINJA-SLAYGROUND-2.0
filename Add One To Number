@@ -1,0 +1,31 @@
+import java.util.*; 
+import java.io.*;
+
+public class Solution {
+    public static ArrayList<Integer> addOneToNumber(ArrayList<Integer> arr) {
+        int n = arr.size();
+        int carry = 1;  // Initialize carry to 1 since we are adding 1
+
+        // Traverse the array from the last digit to the first
+        for (int i = n - 1; i >= 0; i--) {
+            int sum = arr.get(i) + carry;
+            arr.set(i, sum % 10);  // Update the current digit with sum % 10
+            carry = sum / 10;      // Calculate new carry
+
+            // If carry is 0, no need to continue
+            if (carry == 0) break;
+        }
+
+        // If carry remains after the loop, insert 1 at the beginning
+        if (carry == 1) {
+            arr.add(0, 1);
+        }
+
+        // Remove leading zeros, if present
+        while (arr.size() > 1 && arr.get(0) == 0) {
+            arr.remove(0);
+        }
+
+        return arr;
+    }
+}
