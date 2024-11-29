@@ -12,3 +12,4 @@ NINJA SLAYGROUND 2.0 : 21 Day Coding Challenge
 9.  Second Largest Number [DAY-9] (26th nov)
 10. Highest / Lowest Frequency Elements [DAY-10] (27th nov)
 11. Two Sum [DAY-11] (28th nov)
+12.  Add One To Number [DAY-12] (29th nov)
