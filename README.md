@@ -18,7 +18,7 @@ NINJA SLAYGROUND 2.0 : 21 Day Coding Challenge
 13. Binary Search [DAY-13] (30th nov)
 14. Sort An Array of 0s, 1s and 2s [DAY-14] (1st dec)
 # Lavel-3
-15. Implement Lower Bound
+15. Implement Lower Bound [DAY-15] (2nd dec)
 
 
 
