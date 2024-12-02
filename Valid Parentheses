@@ -1,0 +1,23 @@
+import java.util.Stack;
+
+public class Solution {
+    public static boolean isValidParenthesis(String s) {
+        Stack<Character> stack = new Stack<>();
+        
+        for (char ch : s.toCharArray()) {
+            if (ch == '{' || ch == '(' || ch == '[') {
+                stack.push(ch); // Push opening brackets onto the stack
+            } else {
+                if (stack.isEmpty()) return false; // No opening bracket to match
+                char top = stack.pop(); // Check top of the stack
+                if ((ch == '}' && top != '{') ||
+                    (ch == ')' && top != '(') ||
+                    (ch == ']' && top != '[')) {
+                    return false; // Mismatched bracket
+                }
+            }
+        }
+        
+        return stack.isEmpty(); // Return true if all brackets are matched
+    }
+}
