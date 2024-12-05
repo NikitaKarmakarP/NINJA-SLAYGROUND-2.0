@@ -1,0 +1,78 @@
+import java.util.*; 
+
+public class Solution {
+    public static ArrayList<ArrayList<Integer>> zeroMatrix(ArrayList<ArrayList<Integer>> matrix, Integer n, Integer m) {
+        boolean firstRowZero = false, firstColZero = false;
+
+        // Check if first row needs to be zero
+        for (int j = 0; j < m; j++) {
+            if (matrix.get(0).get(j) == 0) {
+                firstRowZero = true;
+                break;
+            }
+        }
+
+        // Check if first column needs to be zero
+        for (int i = 0; i < n; i++) {
+            if (matrix.get(i).get(0) == 0) {
+                firstColZero = true;
+                break;
+            }
+        }
+
+        // Use first row and column to mark zeros
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                if (matrix.get(i).get(j) == 0) {
+                    matrix.get(i).set(0, 0);
+                    matrix.get(0).set(j, 0);
+                }
+            }
+        }
+
+        // Set elements to zero based on markers in the first row and column
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                if (matrix.get(i).get(0) == 0 || matrix.get(0).get(j) == 0) {
+                    matrix.get(i).set(j, 0);
+                }
+            }
+        }
+
+        // Handle the first row if needed
+        if (firstRowZero) {
+            for (int j = 0; j < m; j++) {
+                matrix.get(0).set(j, 0);
+            }
+        }
+
+        // Handle the first column if needed
+        if (firstColZero) {
+            for (int i = 0; i < n; i++) {
+                matrix.get(i).set(0, 0);
+            }
+        }
+
+        return matrix;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            matrix.add(new ArrayList<>());
+            for (int j = 0; j < m; j++) {
+                matrix.get(i).add(sc.nextInt());
+            }
+        }
+        ArrayList<ArrayList<Integer>> result = zeroMatrix(matrix, n, m);
+        for (ArrayList<Integer> row : result) {
+            for (Integer num : row) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+    }
+}
