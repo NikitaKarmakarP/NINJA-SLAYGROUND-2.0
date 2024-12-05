@@ -22,6 +22,7 @@ NINJA SLAYGROUND 2.0 : 21 Day Coding Challenge
 16. Valid Parentheses [DAY-16] (3rd dec)
 17. Implement Upper Bound [DAY-17] (4th dec)
 18. Spiral Matrix [DAY-18] (5th dec)
+19. Zero Matrix [DAY-19] (6th dec)
 
 
 
