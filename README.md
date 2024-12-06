@@ -87,23 +87,9 @@ Write or run solutions in your preferred programming language such as Python, C+
 # 📂 Folder Structure
 
 NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024/
-├── Add One To Number/
-│   ├── Problem.md
-│   └── Solution.cpp
-├── Binary Search/
-│   ├── Problem.md
-│   └── Solution.java
-├── Check Sorted Array/
-├── GCD or HCF/
-├── Highest or Lowest Frequency Elements/
-├── Implement Lower Bound/
-├── Implement Upper Bound/
-├── Reverse an Array/
-├── Sort An Array of 0s, 1s, and 2s/
-├── Spiral Matrix/
-├── Valid Parentheses/
-├── Zero Matrix/
-└── README.md
+
+![image](https://github.com/user-attachments/assets/08a6b1c9-14fe-459c-9bc6-dad3bba2cd72)
+
 
 # 🚀 How to Participate
 - Solve each problem by navigating to the respective folder.
