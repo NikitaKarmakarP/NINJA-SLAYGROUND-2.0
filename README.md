@@ -63,6 +63,7 @@ The NINJA SLAYGROUND 2.0 coding challenge is a collection of carefully crafted p
 17. Implement Upper Bound [DAY-17] (4th dec)
 18. Spiral Matrix [DAY-18] (5th dec)
 19. Zero Matrix [DAY-19] (6th dec)
+20.  Pascal's Triangle [DAY-20] (7th dec)
 
     
 # 🏆 Goal of the Challenge
