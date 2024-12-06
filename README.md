@@ -75,8 +75,9 @@ The NINJA SLAYGROUND 2.0 coding challenge is a collection of carefully crafted p
 - Use the following command to clone the repository:
 - **bash**
 - **Copy code**
-  git clone https://github.com/NikitaKarmakarP/NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024.git
-  cd NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024
+
+  [ git clone https://github.com/NikitaKarmakarP/NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024.git
+  cd NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024 ]
 
 **2) Explore Folders and Files**
 Problems are organized by topics in separate folders for better navigation.
