@@ -1,0 +1,44 @@
+import java.io.*;
+import java.util.* ;
+
+import java.util.ArrayList;
+public class Solution {
+    public static ArrayList<ArrayList<Long>> printPascal(int n) {
+        // Create a 2D ArrayList to store the Pascal's Triangle
+        ArrayList<ArrayList<Long>> pascalTriangle = new ArrayList<>();
+
+        // Generate Pascal's Triangle row by row
+        for (int i = 0; i < n; i++) {
+            // Create a new row
+            ArrayList<Long> row = new ArrayList<>();
+            for (int j = 0; j <= i; j++) {
+                // First and last elements of each row are 1
+                if (j == 0 || j == i) {
+                    row.add(1L);
+                } else {
+                    // Compute the element as the sum of the two above elements
+                    row.add(pascalTriangle.get(i - 1).get(j - 1) + pascalTriangle.get(i - 1).get(j));
+                }
+            }
+            // Add the row to the Pascal's Triangle
+            pascalTriangle.add(row);
+        }
+
+        return pascalTriangle;
+    }
+
+    public static void main(String[] args) {
+        // Sample input
+        int[] testCases = {1, 2, 3};
+        for (int n : testCases) {
+            ArrayList<ArrayList<Long>> result = printPascal(n);
+            for (ArrayList<Long> row : result) {
+                for (Long num : row) {
+                    System.out.print(num + " ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+    }
+}
