@@ -1,9 +1,9 @@
 # 🥷 NINJA SLAYGROUND 2.0: 21-Day Coding Challenge 2024
 **Welcome to the NINJA SLAYGROUND 2.0 repository! 🎉**
-**This 21-day challenge is designed to sharpen your problem-solving skills and help you master essential coding concepts. Whether you're a beginner or an experienced programmer, this challenge is for you!**
+This 21-day challenge is designed to sharpen your problem-solving skills and help you master essential coding concepts. Whether you're a beginner or an experienced programmer, this challenge is for you!
 
 # 🌟 About the Challenge
-**The NINJA SLAYGROUND 2.0 coding challenge is a collection of carefully crafted problems that will take you through 21 days of continuous learning. The repository covers a variety of concepts like arrays, recursion, searching, sorting, and much more. Each problem is hand-picked to build your foundation and enhance your coding confidence.**
+The NINJA SLAYGROUND 2.0 coding challenge is a collection of carefully crafted problems that will take you through 21 days of continuous learning. The repository covers a variety of concepts like arrays, recursion, searching, sorting, and much more. Each problem is hand-picked to build your foundation and enhance your coding confidence.
 
 # 📚 Challenge Topics
 **Below are the key topics you will explore:**
