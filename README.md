@@ -1,5 +1,6 @@
 # 🥷 NINJA SLAYGROUND 2.0: 21-Day Coding Challenge 2024
-**Welcome to the NINJA SLAYGROUND 2.0 repository! 🎉**
+**✨🌟Welcome to the NINJA SLAYGROUND 2.0 repository! 🎉**
+
 This 21-day challenge is designed to sharpen your problem-solving skills and help you master essential coding concepts. Whether you're a beginner or an experienced programmer, this challenge is for you!
 
 # 🌟 About the Challenge
