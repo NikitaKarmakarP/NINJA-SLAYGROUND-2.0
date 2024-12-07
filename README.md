@@ -91,8 +91,40 @@ Write or run solutions in your preferred programming language such as Python, C+
 
 NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024/
 
-![image](https://github.com/user-attachments/assets/08a6b1c9-14fe-459c-9bc6-dad3bba2cd72)
+📂 Problems
+├── 🟢 Basic Problems
+│   ├── 📁 Add One To Number
+│   ├── 📁 Check Sorted Array
+│   ├── 📁 GCD or HCF
+│   ├── 📁 Prime Number
+│   ├── 📁 Reverse a Number
+│   ├── 📁 Second Largest Number
+│   ├── 📁 Number of Digits
+│   └── 📁 Switch Case Statement
+├── 🔵 Array Problems
+│   ├── 📁 Binary Search
+│   ├── 📁 Reverse an Array
+│   ├── 📁 Sort An Array of 0s, 1s, and 2s
+│   ├── 📁 Spiral Matrix
+│   ├── 📁 Zero Matrix
+│   ├── 📁 Two Sum
+│   └── 📁 Highest or Lowest Frequency Elements
+├── 🟠 Mathematical Problems
+│   ├── 📁 Implement Lower Bound
+│   ├── 📁 Implement Upper Bound
+│   ├── 📁 Nth Fibonacci Number
+│   ├── 📁 Pascal's Triangle
+│   └── 📁 Number of Inversions
+├── 🟡 String Problems
+│   ├── 📁 Valid Parentheses
+│   └── 📁 Add One To Number (if related to strings)
+└── 📄 README.md
 
+# Categories:
+- **Basic Problems**: Simple logic or standalone numerical problems.
+- **Array Problems**: Operations and challenges focused on arrays.
+- **Mathematical Problems**: Problems with mathematical concepts or algorithms.
+- **String Problems**: Focused on strings and parentheses or hybrid use-cases.
 
 # 🚀 How to Participate
 - Solve each problem by navigating to the respective folder.
@@ -102,10 +134,3 @@ NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024/
 # 🌟 Get Started Now!
 **Embark on this exciting 21-day journey to improve your coding skills. Let's Slay the Ground with Code! 💻🔥**
 **Happy Coding! 💖💖**
-
-
-
-
-
-
-
