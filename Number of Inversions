@@ -1,0 +1,59 @@
+public class Solution {
+    
+    public static int numberOfInversions(int []a, int n) {
+        int[] temp = new int[n];
+        return mergeSortAndCount(a, temp, 0, n - 1);
+    }
+
+    // Helper function to implement merge sort and count inversions
+    private static int mergeSortAndCount(int[] a, int[] temp, int left, int right) {
+        int invCount = 0;
+        if (left < right) {
+            int mid = (left + right) / 2;
+
+            invCount += mergeSortAndCount(a, temp, left, mid);  // Count inversions in left half
+            invCount += mergeSortAndCount(a, temp, mid + 1, right);  // Count inversions in right half
+
+            // Count inversions during the merge step
+            invCount += mergeAndCount(a, temp, left, mid, right);
+        }
+        return invCount;
+    }
+
+    // Merge two sorted halves and count the inversions
+    private static int mergeAndCount(int[] a, int[] temp, int left, int mid, int right) {
+        int i = left, j = mid + 1, k = left;
+        int invCount = 0;
+
+        // Merge the two halves while counting inversions
+        while (i <= mid && j <= right) {
+            if (a[i] <= a[j]) {
+                temp[k++] = a[i++];
+            } else {
+                temp[k++] = a[j++];
+                invCount += (mid - i + 1);  // All elements left in the left half are greater than a[j]
+            }
+        }
+
+        // Copy the remaining elements of the left half
+        while (i <= mid) {
+            temp[k++] = a[i++];
+        }
+
+        // Copy the remaining elements of the right half
+        while (j <= right) {
+            temp[k++] = a[j++];
+        }
+
+        // Copy the sorted subarray into the original array
+        System.arraycopy(temp, left, a, left, right - left + 1);
+
+        return invCount;
+    }
+
+    public static void main(String[] args) {
+        int[] a = {4, 3, 2, 1};
+        int n = a.length;
+        System.out.println(numberOfInversions(a, n));  // Output: 6
+    }
+}
