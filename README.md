@@ -91,34 +91,7 @@ Write or run solutions in your preferred programming language such as Python, C+
 
 NINJA-SLAYGROUND-2.0-21-Day-Coding-Challenge-2024/
 
-📂 Problems
-├── 🟢 Basic Problems
-│   ├── 📁 Add One To Number
-│   ├── 📁 Check Sorted Array
-│   ├── 📁 GCD or HCF
-│   ├── 📁 Prime Number
-│   ├── 📁 Reverse a Number
-│   ├── 📁 Second Largest Number
-│   ├── 📁 Number of Digits
-│   └── 📁 Switch Case Statement
-├── 🔵 Array Problems
-│   ├── 📁 Binary Search
-│   ├── 📁 Reverse an Array
-│   ├── 📁 Sort An Array of 0s, 1s, and 2s
-│   ├── 📁 Spiral Matrix
-│   ├── 📁 Zero Matrix
-│   ├── 📁 Two Sum
-│   └── 📁 Highest or Lowest Frequency Elements
-├── 🟠 Mathematical Problems
-│   ├── 📁 Implement Lower Bound
-│   ├── 📁 Implement Upper Bound
-│   ├── 📁 Nth Fibonacci Number
-│   ├── 📁 Pascal's Triangle
-│   └── 📁 Number of Inversions
-├── 🟡 String Problems
-│   ├── 📁 Valid Parentheses
-│   └── 📁 Add One To Number (if related to strings)
-└── 📄 README.md
+![image](https://github.com/user-attachments/assets/3c8daa26-b005-476c-9e49-b9da521865bf)
 
 # Categories:
 - **Basic Problems**: Simple logic or standalone numerical problems.
