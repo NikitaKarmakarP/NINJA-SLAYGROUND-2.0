@@ -66,6 +66,7 @@ The NINJA SLAYGROUND 2.0 coding challenge is a collection of carefully crafted p
 20. Pascal's Triangle [DAY-20] (7th dec)
 21. Number of Inversions [DAY-21] (8th dec)
 
+![Uploading Screenshot 2024-12-09 173040.png…]()
     
 # 🏆 Goal of the Challenge
 - Solve at least one problem daily for 21 days.
