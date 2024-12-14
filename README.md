@@ -1,4 +1,4 @@
-# 🥷 NINJA SLAYGROUND 2.0: 21-Day Coding Challenge 2024
+![Screenshot 2024-12-09 173040](https://github.com/user-attachments/assets/cf6ba58c-9727-4913-8abb-0501abf68b98)# 🥷 NINJA SLAYGROUND 2.0: 21-Day Coding Challenge 2024
 **✨🌟Welcome to the NINJA SLAYGROUND 2.0 repository! 🎉**
 
 This 21-day challenge is designed to sharpen your problem-solving skills and help you master essential coding concepts. Whether you're a beginner or an experienced programmer, this challenge is for you!
@@ -67,7 +67,7 @@ The NINJA SLAYGROUND 2.0 coding challenge is a collection of carefully crafted p
 21. Number of Inversions [DAY-21] (8th dec)
 
 ![Uploading Screenshot 2024-12-09 173040.png…]()
-    
+
 # 🏆 Goal of the Challenge
 - Solve at least one problem daily for 21 days.
 - Focus on improving problem-solving and debugging skills.
